@@ -1,27 +1,44 @@
-# GitProfile
+# Git-Profile
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
+## Description
+Git-Profile is an web application where a user enters a Git hub user name into a form and submits. After submitting, a user is able to see an individual’s name and description of the public repositories. A user can also search for  other repositories.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Author
 
-## Code scaffolding
+Esther Kirui<br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies Used
 
-## Build
+The Angular Frame work has been used in the development of this application.<br>
+The languages used are:<br>
+- Type script for functionality<br>
+- Css/Bootsrap for styling<br>
+- HTML for structuring the application.<br>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Behaviour Driven development (BDD)
 
-## Running unit tests
+    • A user enters a Git-Hub user name they want to search in the form.<br>
+    • if the git-hub user name is available, the name and descriptions of the person’s repository will display on the page.<br>
+    • If the user name is not available, the user will be notified that the profile could not be found.<br>
+    • A user can also search for other repositories <br>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Set-Up instructions and requirements
+• Desktop/laptop computer<br>
+• Web browser<br>
+• Install node.js, Angular CLI, typescript, npm and watchman<br>
+• Clone this repository into your local computer: https://github.com/Eccie-K/GIT-PROFILE<br>
+• On your computer terminal, run the application on your browser by typing “ng-serve” without the quotation marks.<br>
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Contributions
+Contributions are welcome. It is recommended that you open an issue and discuss the changes you would like to make.
 
-## Further help
+##Contact Information
+Esther Kirui<br>
+Mobile:+254729977790<br>
+Email:estherkc100@gmail.com<br>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+##License and Copyright Information.
+https://github.com/Eccie-K/pig-dice-game/blob/master/LICENSE.md<br>
+Copyright ©2019 Esther Kirui.
