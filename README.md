@@ -21,7 +21,7 @@ The languages used are:<br>
 - A user enters a Git-Hub user name they want to search in the text area on the form.<br>
 - If the git-hub user name is available, the name and descriptions of the person’s repository      will display on the page.<br>
 - If the user name is not available, the user will be notified that the profile could not be       found.<br>
--A user can also search for other repositories <br>
+- A user can also search for other repositories <br>
 
 
 ## Set-Up instructions and requirements
