@@ -31,14 +31,14 @@ The languages used are:<br>
 • Clone this repository into your local computer: https://github.com/Eccie-K/GIT-PROFILE<br>
 • On your computer terminal, run the application on your browser by typing “ng-serve” without      the quotation marks.<br>
 
-##Contributions
+<h2>Contributions</h2>
 Contributions are welcome. It is recommended that you open an issue and discuss the changes you would like to make.
 
-##Contact Information
+<h2>Contact Information</h2>
 Esther Kirui<br>
 Mobile:+254729977790<br>
 Email:estherkc100@gmail.com<br>
 
-##License and Copyright Information
+<h2>License and Copyright Information</h2>
 https://github.com/Eccie-K/GIT-PROFILE/blob/master/LICENSE.md<br>
 Copyright ©2019 Esther Kirui.
