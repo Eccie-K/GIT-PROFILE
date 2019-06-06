@@ -18,10 +18,10 @@ The languages used are:<br>
 
 ## Behaviour Driven development (BDD)
 
-    • A user enters a Git-Hub user name they want to search in the form.<br>
-    • if the git-hub user name is available, the name and descriptions of the person’s repository will display on the page.<br>
-    • If the user name is not available, the user will be notified that the profile could not be found.<br>
-    • A user can also search for other repositories <br>
+- A user enters a Git-Hub user name they want to search in the text area on the form.<br>
+- If the git-hub user name is available, the name and descriptions of the person’s repository      will display on the page.<br>
+- If the user name is not available, the user will be notified that the profile could not be       found.<br>
+-A user can also search for other repositories <br>
 
 
 ## Set-Up instructions and requirements
@@ -29,9 +29,9 @@ The languages used are:<br>
 • Web browser<br>
 • Install node.js, Angular CLI, typescript, npm and watchman<br>
 • Clone this repository into your local computer: https://github.com/Eccie-K/GIT-PROFILE<br>
-• On your computer terminal, run the application on your browser by typing “ng-serve” without the quotation marks.<br>
+• On your computer terminal, run the application on your browser by typing “ng-serve” without      the quotation marks.<br>
 
-## Contributions
+##Contributions
 Contributions are welcome. It is recommended that you open an issue and discuss the changes you would like to make.
 
 ##Contact Information
@@ -39,6 +39,6 @@ Esther Kirui<br>
 Mobile:+254729977790<br>
 Email:estherkc100@gmail.com<br>
 
-##License and Copyright Information.
-https://github.com/Eccie-K/pig-dice-game/blob/master/LICENSE.md<br>
+##License and Copyright Information
+https://github.com/Eccie-K/GIT-PROFILE/blob/master/LICENSE.md<br>
 Copyright ©2019 Esther Kirui.
