@@ -4,7 +4,8 @@
 <div class="form">
 <form action="" class="search">
   <div class="form-group">
-    <input type="text" class="form-control" placeholder="Enter your github username..">
+    <input type="text" class="form-control" placeholder="Enter your github username.."
+    [(ngModel)]="username"  name="username" (keyup)="findProfile()">
   </div>
 </form>
 </div>
