@@ -4,7 +4,59 @@
 <div class="form">
 <form action="" class="search">
   <div class="form-group">
-    <input type="text" class="form-control" placeholder="Enter your github username" >
+    <input type="text" class="form-control" placeholder="Enter your github username..">
   </div>
 </form>
+</div>
+<br>
+<br>
+<div *ngIf="Profile">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      {{Profile.name}}  
+      <small>{{Profile.login}}</small>
+      <span *ngIf="Profile.company">,works at {{Profile.company}}</span>
+      {{Profile.location}}
+
+    </div>
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="{{Profile.avatar_url}}" alt="Profile Image">
+        </div>
+        <div class="col-sm-5">
+          <ul class="list-group">
+            <li class="item"  *ngIf="Profile.bio">{{Profile.bio}}</li>
+            <li class="item"  *ngIf="Profile.hireable">Available for hire</li>
+            <li class="item"  *ngIf="Profile.blog">
+              <a href="{{Profile.blog}}" target="_blank">{{Profile.blog}}</a>
+            </li>
+            <li class="item"  *ngIf="Profile.email">
+              <a href="Email to:{{Profile.email}}">{{Profile.email}}</a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <div class="pull">
+            <p>
+              <span class="label label-default">{{Profile.followers}} Followers</span>
+              <span class="label label-primary"> Following  {{Profile.following}}</span>
+              <span class="label label-success">{{Profile.public_gists}} Public gists</span>
+              <span class="label label-info">{{Profile.public_repos}} Public Repos</span>
+            </p>
+            <p>
+              <a href="{{Profile.html_url}}" target="_blank" class="btn btn-success btn-sm">View profile on github</a>
+            
+            </p>
+            <div class="panel panel-success">
+              <div class="panel-heading">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

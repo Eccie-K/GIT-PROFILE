@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import {Http, Headers} from "@angular/http";
-import  "rxjs/add/operator/map";
+import   "rxjs/add/operator/map";
 
 
 @Injectable({
@@ -8,7 +8,7 @@ import  "rxjs/add/operator/map";
 })
 export class ProfileService {
   private username: string;
-  private clientsecret  = 'https://api.github.com/users/Eccie-K?access_token=4f68744308edbcaef5029b64c022bb5f6235b3b4';
+  private accesstoken  = '4f68744308edbcaef5029b64c022bb5f6235b3b4';
 
 
 
@@ -19,7 +19,7 @@ export class ProfileService {
    }
 
    getProfileInfo(){
-     return this.http.get("https://api.github.com/users/", this.username + "?client_secret=4f68744308edbcaef5029b64c022bb5f6235b3b4")
+     return this.http.get("https://api.github.com/users/" + this.username +"?access_token=" + this.accesstoken)  
      .map(res =>  res.json());
    }
 }
